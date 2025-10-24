@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3b4c6e; 
+    color: #fff;
+    min-height: 100vh;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto 1fr auto; 
+    grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    min-height: 100vh;
+}
+
+
+
+.portfolio-header { 
+    grid-area: header; 
+    background-color: #35425c;
+    padding: 20px 0 10px 0; 
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.Buttons { 
+    grid-area: nav; 
+    background-color: #3b4c6e; 
+    padding: 5px 0 25px 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.about-pic { 
+    grid-area: main; 
+    padding: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #3b4c6e;
+    padding: 15px 0; 
+    text-align: center;
+    border-top: 1px solid #4a5e80;
+}
+
+
+
+
+.Buttons nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px;
+    
+}
+
+.Buttons nav ul li {
+    margin-bottom: 0; 
+}
+
+.Buttons nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em; 
+    padding: 10px 20px; 
+    transition: color 0.3s ease;
+    background-color: #5f7ebb;
+    border-radius: 15px;
+}
+
+.Buttons nav ul li a:hover {
+    color: #f0c3c3;
+}
+
+.profile-pic {
+    width: 150px; 
+    height: 150px;
+    overflow: hidden;
+    border: 5px solid rgba(122, 123, 211, 0.8); 
+    margin-top: 100px; 
+}
+
+.profile-pic img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    background-color: #fffefe; 
+    color: #000000; 
+    padding: 30px; 
+    border-radius: 10px; 
+    text-align: center;
+    max-width: 700px;
+    border: 5px solid rgba(115, 154, 228, 0.8); 
+}

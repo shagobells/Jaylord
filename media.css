@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+    
+    
+    .Buttons {
+        padding: 5px 0 15px 0; 
+    }
+
+    .Buttons nav ul {
+        gap: 15px;
+    }
+
+    
+    .about-pic {
+        padding: 10px;
+        gap: 20px;
+    }
+    
+    .profile-pic {
+        margin-top: 10px;
+        width: 120px; 
+        height: 120px;
+        border-radius: 50%;
+    }
+    
+    .text {
+        padding: 20px;
+        font-size: 1em; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .Buttons nav ul li a {
+        padding: 10px 10px; 
+    }
+}
