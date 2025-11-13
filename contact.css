@@ -21,20 +21,7 @@ body {
     min-height: 100vh;
 }
 
-.menu-toggle {
-  display: none;
-  position: fixed;
-  top: 15px;
-  left: 20px;
-  font-size: 28px;
-  background-color: #347485;
-  color: white;
-  border: none;
-  padding: 8px 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  z-index: 1100;
-}
+
 
 .portfolio-header { 
     grid-area: header; 
